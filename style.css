@@ -1,6 +1,6 @@
 .main{
-    width: 275px;
-    height: 230px;
+    width: 210px;
+    /* height: 230px; */
     margin: 0 auto;
     border: 10px groove grey;
     background-color: black;
@@ -45,7 +45,7 @@
     color:greenyellow ;
     margin-top: 2px;
     height: 5vh;
-    margin-left:2px ;
+    margin-left:1px ;
     font-size: 20px;
 }
 .btn:hover{
@@ -56,34 +56,40 @@
 }
 @media screen and (max-width:390px) {
 .main{
-    margin-left: 6%;
+    /* margin-left: 6%; */
+    margin: 0 auto;
     margin-top: 2px;
-    height: 279px;
+    /* height: 277px; */
 }
 .heading h1{
     margin-top: 25%;
-    margin-left: 25%;
+    /* margin-left: 25%; */
+    text-align: center;
 }
 }
 @media screen and (max-width:412px) {
     .main{
-        height: 351px;
-        margin-left: 15px;
+        /* height: 275px; */
+        /* margin-left: 15px; */
+        margin: 0 auto;
     }
     .heading h1{
-        margin-left: 23%;
+        /* margin-left: 23%; */
+        text-align: center;
     
     }
     }
 @media screen and (max-width:460px) {
 .main{
-    height: 222px;
-    margin-left: 13%;
+    /* height: 285px; */
+    /* margin-left: 10%; */
+    margin: 0 auto;
     margin-top: 5%;
 }
 .heading h1{
-    display: block;
-    margin-left: 27%;
+    display: inline-block;
+    margin-left: 26%;
+    /* text-align: center; */
     margin-top: 14%;
 }
 
