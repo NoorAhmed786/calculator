@@ -1,5 +1,5 @@
 .main{
-    width: 304px;
+    width: 275px;
     height: 230px;
     margin: 0 auto;
     border: 10px groove grey;
@@ -77,7 +77,7 @@
     }
 @media screen and (max-width:460px) {
 .main{
-    height: 210px;
+    height: 222px;
     margin-left: 13%;
     margin-top: 5%;
 }
