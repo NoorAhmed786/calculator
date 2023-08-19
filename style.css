@@ -1,5 +1,5 @@
 .main{
-    width: 250px;
+    width: 304px;
     height: 230px;
     margin: 0 auto;
     border: 10px groove grey;
@@ -19,7 +19,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 78vh;
+    height: 90vh;
  } 
 
 .result{
@@ -53,15 +53,37 @@
     color: black;
     
 }
+@media screen and (max-width:390px) {
+.main{
+    margin-left: 6%;
+    margin-top: 2px;
+    height: 279px;
+}
+.heading h1{
+    margin-top: 25%;
+    margin-left: 25%;
+}
+}
+@media screen and (max-width:412px) {
+    .main{
+        height: 351px;
+        margin-left: 15px;
+    }
+    .heading h1{
+        margin-left: 23%;
+    
+    }
+    }
 @media screen and (max-width:460px) {
 .main{
-    height: 353px;
-    margin-left: 8%;
+    height: 210px;
+    margin-left: 13%;
     margin-top: 5%;
 }
 .heading h1{
     display: block;
-    margin-left: 16%;
+    margin-left: 27%;
+    margin-top: 14%;
 }
 
 
